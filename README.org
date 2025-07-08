@@ -1,0 +1,16 @@
+#+title: Devdots
+* Installation
+
+** Clone Repo
+#+begin_src bash
+  git clone https://github.com/NickHardbarger/devdots.git
+#+end_src
+
+** Run Install Script
+First invocation will copy over config files, install a Nerd Font,
+perform a system upgrade, then install GNU Emacs and Qutebrowser.
+
+Using it afterwards will just copy over config files.
+#+begin_src bash
+  devdots/install
+#+end_src
