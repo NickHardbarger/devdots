@@ -1,4 +1,6 @@
 #+title: Devdots
+Note: Only tested on Fedora Sway, should work on any distro with minimal changes.
+
 * Installation
 
 ** Clone Repo
