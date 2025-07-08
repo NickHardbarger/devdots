@@ -11,6 +11,12 @@ fc-cache -vf ~/.local/share/fonts/
 sudo dnf up && sudo dnf in emacs-pgtk qutebrowser
 
 ## COPYING CONFIG FILES
+mkdir ~/.emacs.d
 cp ~/devdots/emacs/* ~/.emacs.d
+
+mkdir -p ~/.config/sway
 cp ~/devdots/sway/* ~/.config/sway/
 
+mkdir -p ~/.config/qutebrowser/styles
+cp ~/devdots/qutebrowser/*.py ~/.config/qutebrowser/
+cp ~/devdots/qutebrowser/*.css ~/.config/qutebrowser/styles
